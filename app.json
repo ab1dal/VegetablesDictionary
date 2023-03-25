@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "veggie-dictionary",
+    "slug": "veggie-dictionary",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "veggie-dictionary"
+}
