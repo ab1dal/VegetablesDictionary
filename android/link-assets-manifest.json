@@ -1,0 +1,13 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/font/MochiyPopPOne-Regular.ttf",
+      "sha1": "415bc3e2f95692907c87d2d34d211a8830bc4883"
+    },
+    {
+      "path": "assets/font/Modak-Regular.ttf",
+      "sha1": "46b8d9e4dedd90b6d81199c676a371996c662ee3"
+    }
+  ]
+}
