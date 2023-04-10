@@ -10,7 +10,7 @@ const Vegetables = ({navigation}) => {
     const [page, setPage] = useState(1);
 
     const getMateri = () => {
-        axios.get(`http://{yourIpAddress}:5000/api/materi/materi`)
+        axios.get(`http://localhost:5000/api/materi/materi`)
         .then((res)=>{
             setMateri(res.data)
         })

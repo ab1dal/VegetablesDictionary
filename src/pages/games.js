@@ -36,7 +36,7 @@ const Games = ({ navigation }) => {
   const getMateri = async () => {
     await axios
       .get(
-        `https://55e9-36-73-34-173.ap.ngrok.io/api/quizzes`
+        `http://localhost:5000/api/quizzes`
       )
       .then((res) => {
         setMateri(res.data);
@@ -53,7 +53,7 @@ const Games = ({ navigation }) => {
   const postMateri = async (answer) => {
     return await axios
       .post(
-        `http://{yourIpAddress}:5000/api/jobsheet/one`,
+        `http://localhost:5000/api/jobsheet/one`,
         {
           quizId: page,
           answer: answer,
